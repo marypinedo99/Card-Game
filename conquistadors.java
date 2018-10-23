@@ -3,27 +3,28 @@
 import java.util.*;
 import java.util.Scanner;
 
-
-
 public class conquistadors{
 
   public static void main(String[] args) {
-    System.out.println("How many players to you want to simulate?");
-    int numberofusers = keyboard.nextInt();
+   // System.out.println("How many players to you want to simulate?");
+   // int numberofusers = keyboard.nextInt();
+      
     
-    int numberofrounds = 0;
-    
-    for( int numberofrounds = 1; x<=3; x++)
+    for( int numberofrounds = 1; x<=3; x++){
       System.out.println("The number of rounds is:" +x);
     
+      
       //place methods in for loop
       
- 
+    }//end for loop
+    
+      
   }
 
 public static Cards(){
 
-  final static String[] ranks = {"2", "3","4","5","6","7","8", "9","10", "Jack", "Queen", "King", "Ace"};
+  final static String[] ranks = {"1A", "2A", "3A","4A","5A","6A","7A","8A", "9A","10A", "11A", "12A", "13A"};
+  final static String[] ranks = {"1B", "2B", "3A","4A","5A","6A","7A","8A", "9A","10A", "11A", "12A", "13A"};
 
 //distribute cards to players
-Card[] playerOne = new Card[]
+Card[] p1 = new Card[]
