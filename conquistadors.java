@@ -16,7 +16,7 @@ public class conquistadors{
     for( int numberofrounds = 1; x<=3; x++)
       System.out.println("The number of rounds is:" +x);
     
-      //place methods in for loop?
+      //place methods in for loop
       
  
   }
